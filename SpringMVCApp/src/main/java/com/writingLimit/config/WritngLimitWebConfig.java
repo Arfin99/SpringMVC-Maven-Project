@@ -10,9 +10,9 @@ import org.springframework.web.context.support.XmlWebApplicationContext;
 import org.springframework.web.servlet.DispatcherServlet;
 
 //web.xml
-public class WritngLimitWebConfig implements WebApplicationInitializer {
+public class WritngLimitWebConfig {//implements WebApplicationInitializer {
 
-	@Override
+	/*@Override
 	public void onStartup(ServletContext servletContext) throws ServletException {
 	 //  XmlWebApplicationContext webAC = new XmlWebApplicationContext();
 	  // webAC.setConfigLocations("classpath:appconfig.xml");
@@ -28,5 +28,5 @@ public class WritngLimitWebConfig implements WebApplicationInitializer {
 	   servlet.addMapping("/writingCount.com/*");
 
 	}
-
+*/
 }
